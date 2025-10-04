@@ -1,13 +1,10 @@
 {
   "functions": {
-    "api/app.py": {
-      "runtime": "python3.11"
+    "api/**/*.py": {
+      "maxDuration": 10
     }
   },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/app.py"
-    }
+    { "src": "/(.*)", "dest": "api/app.py" }
   ]
 }
