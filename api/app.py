@@ -64,7 +64,7 @@ def get_clothing_recommendations(weather_data):
             elif temp < 20:
                 recommendations.extend(["Light jacket or sweater", "Long-sleeved shirt"])
             elif temp < 30:
-                recommendations.extend(["T-shirt or light shirt Eshan", "Shorts or light pants"])
+                recommendations.extend(["T-shirt or light shirt", "Shorts or light pants"])
             else:
                 recommendations.extend(["Light, breathable clothing", "Shorts and tank top"])
 
